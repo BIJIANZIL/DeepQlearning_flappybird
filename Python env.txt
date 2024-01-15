@@ -1,0 +1,29 @@
+#Python environment
+# Installation:
+# install Python 3.10+ on your system, restart system
+# Example here: Windows 11
+
+# -------------------------------
+# Installation:
+c:
+cd C:\(...)\src
+python -m venv .venv
+.venv\Scripts\activate.bat
+pip install -r requirements.txt
+# pip install spyder
+
+cd C:\(...)\src
+
+# -------------------------------
+# Launch:
+c:
+cd C:\(...)\src
+.venv\Scripts\activate.bat
+spyder
+
+#versions
+pygame==2.5.2
+opencv-python==4.8.1.78
+torch==2.1.1
+numpy==1.26.2
+tensorboardX==2.6.2.2
